@@ -2,7 +2,7 @@
 	  require_once 'controllers/usercontroller.php';
 ?>
 
-<!--login starts -->
+
 <div class="center-login">
 	<h1 class="text text-center">Login</h1>
 	<h5 class="text-danger"><?php echo $err_db;?></h5>
