@@ -9,7 +9,7 @@
         xhr.open("GET","myprofile.php",true);
         xhr.onreadystatechange=function()
         {
-            if (this.readystate== 4 && this.status == 200)
+            if (this.readyState== 4 && this.status == 200)
             {
                 get("demo").innerHTML = this.responseTEXT;
             }
